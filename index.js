@@ -10,7 +10,8 @@ const inventors = [
   "Ada Lovelace",
   "Sarah E. Goode",
   "Lise Meitner",
-  "Hanna Hammarstrom"
+  "Hanna Hammarstrom",
+  "Hung S. Tran"
 ];
 
 const numbers = [1, 2, 3, 5, 8, 13, 21, 34, 55];
@@ -157,5 +158,36 @@ const numbers = [1, 2, 3, 5, 8, 13, 21, 34, 55];
 // })); 
 
 //Milestone 6
+// console.log("Names with y in them ",inventors.some((str) => {
+//   return str.includes('y');//no one here has y in there names
+// })); 
+
+// console.log("Do all names have 'e' in them? ",inventors.every((str) => {
+//   return str.includes('e');
+// })); 
+
+// console.log("Does every name have a first name longer than 4 characters? ",inventors.every((str) => {
+//   return str.split(' ')[0].length > 4;
+// })); 
+
+
+//Milestone 7
+//use filter if you want ALL people with middle name, use find if trying to find the first occurence 
+// console.log("Do they have a middle name? ",inventors.filter((str) => {
+//   return str.split(' ').length > 2;
+// })); 
+
+// console.log("People without middle names ",inventors.filter((str) => {
+//   return str.split(' ').length <= 2;
+// }));
+
+
+// console.log("Number divisible by 7 ",numbers.find((num) => {
+//   return num % 7 === 0;
+// }));
+
+// console.log("Numbers not divisible by 7 ",numbers.filter((num) => {
+//   return num % 7 !== 0;
+// }));
 
 
