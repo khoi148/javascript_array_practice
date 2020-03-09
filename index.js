@@ -68,9 +68,10 @@ const numbers = [1, 2, 3, 5, 8, 13, 21, 34, 55];
 // }));
 // console.log("Initials ",inventors.map(str =>
 // {
-//   let endOfFirstName = str.indexOf(' ');
-//   return `${str.charAt(0)}.${str.charAt(endOfFirstName+1)}.`;
+//   let array = str.split(' ');
+//   return `${array[0].charAt(0)}.${array[array.length-1].charAt(0)}.`;
 // }));
+
 // console.log("Number x 100 ",numbers.map(num =>
 // {
 //   return num * 100;
