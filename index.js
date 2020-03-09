@@ -50,3 +50,52 @@ const numbers = [1, 2, 3, 5, 8, 13, 21, 34, 55];
 // }));
 
 //Milestone 3 Map
+// console.log("First Name ",inventors.map(str =>
+// {
+//   let endOfFirstName = str.indexOf(' ');
+//   return str.substring(0, endOfFirstName);
+// }));
+// console.log("Length of Name ",inventors.map(str =>
+// {
+//   let endOfFirstName = str.indexOf(' ');
+//   return str.length-1;
+// }));
+// console.log("Uppercase Names ",inventors.map(str =>
+// {
+//   let endOfFirstName = str.indexOf(' ');
+//   return str.toUpperCase();
+// }));
+// console.log("Initials ",inventors.map(str =>
+// {
+//   let endOfFirstName = str.indexOf(' ');
+//   return `${str.charAt(0)}.${str.charAt(endOfFirstName+1)}.`;
+// }));
+// console.log("Number x 100 ",numbers.map(num =>
+// {
+//   return num * 100;
+// }));
+
+// function powerOfTwo()
+// {
+//   let arrayOfTwos = [];
+//   let curr = 2;
+//   for(let i = 2; i < 11; i++) {
+//     arrayOfTwos.push(curr);
+//     curr = Math.pow(2, i); 
+//   }
+//   return arrayOfTwos;
+// }
+// console.log(powerOfTwo());
+
+//Milestone 4 Sort
+function testSort() {
+  if(true) {
+    return 1;
+  } else if(true) {
+    return -1;
+  } else {
+    return 0
+  }
+}
+
+console.log
