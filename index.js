@@ -88,14 +88,56 @@ const numbers = [1, 2, 3, 5, 8, 13, 21, 34, 55];
 // console.log(powerOfTwo());
 
 //Milestone 4 Sort
-function testSort() {
-  if(true) {
-    return 1;
-  } else if(true) {
-    return -1;
-  } else {
-    return 0
-  }
-}
+// function testSort(str, str2) {
+//   for(let i=0;i<str.length;i++) {
+//     if(str.toUpperCase().charAt(i) < str2.toUpperCase().charAt(i)) {
+//       return -1;
+//     } else if(str.toUpperCase().charAt(i) > str2.toUpperCase().charAt(i)) {
+//       return 1;
+//     } else {
+//       continue;
+//     }
+//   }
+//   return 0;
+// }
+// console.log("Sort words Alphabetically ", inventors.sort(testSort));
 
-console.log
+// function testSortReverse(str, str2) {
+//   for(let i=0;i<str.length;i++) {
+//     if(str.toUpperCase().charAt(i) < str2.toUpperCase().charAt(i)) {
+//       return 1;
+//     } else if(str.toUpperCase().charAt(i) > str2.toUpperCase().charAt(i)) {
+//       return -1;
+//     } else {
+//       continue;
+//     }
+//   }
+//   return 0;
+// }
+// console.log("Sort words in reverse Alphabetical order ",inventors.sort(testSortReverse));
+
+
+// function testSortShort(str, str2) {
+//   if(str.length < str2.length) {
+//     return -1;
+//   } else if(str.length > str2.length) {
+//     return 1;
+//   } else {
+//     return 0;
+//   }
+// }
+// console.log("Sort words in order of shortest names first",inventors.sort(testSortShort));
+
+// function testSortLong(str, str2) {
+//   if(str.length < str2.length) {
+//     return 1;
+//   } else if(str.length > str2.length) {
+//     return -1;
+//   } else {
+//     return 0;
+//   }
+// }
+// console.log("Sort words in order of longest names first",inventors.sort(testSortLong));
+
+
+//Milestone 5 Reduce
