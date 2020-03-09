@@ -141,3 +141,21 @@ const numbers = [1, 2, 3, 5, 8, 13, 21, 34, 55];
 
 
 //Milestone 5 Reduce
+// console.log("Sum of all numbers",numbers.reduce((total, next) => {
+//   return total + next;
+// })); 
+
+// console.log("Sum of all even numbers",numbers.reduce((total, next) => {
+//   if(total % 2 !== 0)
+//     total = 0;
+//   if(next % 2 !== 0)
+//     next = 0;
+//   return total + next;
+// })); 
+// console.log("All firstNames in one ",inventors.reduce((total, next) => {
+//   return total.split(" ")[0] + next.split(" ")[0];
+// })); 
+
+//Milestone 6
+
+
